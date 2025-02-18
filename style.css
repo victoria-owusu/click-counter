@@ -1,0 +1,38 @@
+.work-sans {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    background-image: url('background.gif');
+    background-size: cover;
+}
+.box {
+    border: 1px solid rgb(163, 33, 148);
+    border-radius: 20px;
+    padding: 50px;
+    width: 400px;
+    height: auto;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    backdrop-filter: blur(3px);
+}
+
+h1, p {
+    color: white;
+    text-shadow: 1px 4px 10px black;
+    font-family: "Work Sans";
+}
+
+
+
+button {
+    background: none;
+    border: none;
+}
+
